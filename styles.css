@@ -35,7 +35,7 @@ html {
 
 /* Welcome section */
 #welcome-section {
-    height: 50vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
