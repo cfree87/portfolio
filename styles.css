@@ -220,6 +220,12 @@ a:focus {
     display: block;
     margin: 0.5rem 0;
   }
+
+  #welcome-section {
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
 }
 
 
