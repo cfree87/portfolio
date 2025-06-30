@@ -37,7 +37,7 @@ html {
 
 /* Welcome section */
 #welcome-section {
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,7 +45,16 @@ html {
     text-align: center;
     padding: 2rem;
     background-color: #1e1e1e;
+
+    /* Background image properties */
+    background-image: url('Assets/images/stockholm-skyline.png'); /* adjust path */
+    background-position: center bottom; /* position skyline at bottom center */
+    background-repeat: no-repeat;
+    background-size: cover; /* cover fills the area without stretching */
+    background-blend-mode: multiply; /* blend with background color for dark effect */
+    background-color: rgba(30, 30, 30, 0.7); /* overlay color for contrast */
 }
+
 
 #welcome-section h1 {
     font-size: 3rem;
