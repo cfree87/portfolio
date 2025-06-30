@@ -37,7 +37,7 @@ html {
 
 /* Welcome section */
 #welcome-section {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,11 +70,11 @@ html {
 
 /* Projects section */
 #projects {
-    padding: 8rem 2rem;
+    padding: 5rem 1.5rem;
     background-color: #121212;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
 }
 
 .project-title {
@@ -89,7 +89,7 @@ html {
 .project-title a {
     color: #f2f2f2;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     transition: color 0.3s ease;
 }
 
@@ -100,9 +100,10 @@ html {
 .project-title img {
     width: 100%;
     height: auto;
-    border-radius: 6px;
+    border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
+    margin-bottom: 1rem;
 }
 
 .project-title img:hover {
@@ -113,7 +114,7 @@ a.project-name,
 .project-name {
     display: block;
     margin-top: 1.75rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #f2f2f2;
     text-decoration: none;
@@ -125,7 +126,7 @@ a.project-name,
 }
 
 .project-description {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     font-weight: 400;
     color: #cccccc;
     margin-top: 0.5rem;
@@ -155,13 +156,21 @@ input:focus {
     color: #cccccc;
 }
 
-.down-arrow {
+
+.down-arrow,
+.up-arrow {
   font-size: 2rem;
-  display: inline-block;
   text-decoration: none;
   color: inherit;
-  text-align: center;
+  margin: 0 1rem;
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 2rem;
+  gap: 2rem;
 }
 
 .logo {
