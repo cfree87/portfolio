@@ -9,7 +9,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Navbar */
+/* Navbar Keep in case addingh a navbar later
 #navbar {
     position: fixed;
     top: 0;
@@ -32,6 +32,8 @@ html {
 #navbar a:hover {
     color: #cccccc;
 }
+
+*/
 
 /* Welcome section */
 #welcome-section {
@@ -59,9 +61,9 @@ html {
 
 /* Projects section */
 #projects {
-    padding: 4rem 2rem;
+    padding: 8rem 2rem;
     background-color: #121212;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
 }
@@ -98,17 +100,27 @@ html {
     transform: scale(1.03);
 }
 
-#profile-link {
-    display: inline-block;
+a.project-name,
+.project-name {
+    display: block;
     margin-top: 1rem;
-    font-weight: bold;
+    font-size: 1.25rem;
+    font-weight: 600;
     color: #f2f2f2;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-#profile-link:hover {
+.project-name:hover {
     color: #cccccc;
+}
+
+.project-description {
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: #cccccc;
+    margin-top: 0.5rem;
+    line-height: 1.4;
 }
 
 a:focus {
@@ -151,14 +163,52 @@ a:focus {
 }
 
 /* Media query for responsiveness */
-@media (max-width: 600px) {
-    #navbar {
-        flex-direction: column;
-        gap: 1em;
-        align-items: center;
-    }
+@media (max-width: 768px) {
+  #projects {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+  }
 
-    #welcome-section h1 {
-        font-size: 2rem;
-    }
+  .project-title {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .project-title img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .project-name {
+    font-size: 1.1rem;
+  }
+
+  .project-description {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #welcome-section h1 {
+    font-size: 2rem;
+  }
+
+  #welcome-section h2 {
+    font-size: 1.25rem;
+  }
+
+  #welcome-section h3 {
+    font-size: 1rem;
+  }
+
+  .logo {
+    max-width: 150px;
+    padding-top: 60px;
+  }
+
+  #contact a {
+    display: block;
+    margin: 0.5rem 0;
+  }
 }
