@@ -139,6 +139,48 @@ input:focus {
   outline: none;
 }
 
+/* About me section */
+
+#me {
+  width: 25%;
+  height: auto;
+}
+
+#about {
+  padding: 6rem 2rem;
+  background-color: #1e1e1e;
+  color: #f2f2f2;
+  text-align: center;
+}
+
+#about h2, #about h3 {
+  color: #cccccc;
+  margin-bottom: 1rem;
+}
+
+#about p {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 1.5rem;
+  color: #ddd;
+}
+
+#about ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#about li {
+  background-color: #2a2a2a;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem auto;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
 /* Contact section */
 #contact {
     padding: 2rem;
@@ -239,37 +281,3 @@ input:focus {
 }
 
 
-#about {
-  padding: 6rem 2rem;
-  background-color: #1e1e1e;
-  color: #f2f2f2;
-  text-align: center;
-}
-
-#about h2, #about h3 {
-  color: #cccccc;
-  margin-bottom: 1rem;
-}
-
-#about p {
-  font-size: 1rem;
-  line-height: 1.6;
-  max-width: 800px;
-  margin: 0 auto 1.5rem;
-  color: #ddd;
-}
-
-#about ul {
-  list-style-type: none;
-  padding: 0;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-#about li {
-  background-color: #2a2a2a;
-  padding: 0.5rem 1rem;
-  margin: 0.5rem auto;
-  border-radius: 6px;
-  font-size: 1rem;
-}
