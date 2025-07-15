@@ -5,7 +5,7 @@
 ---
 
 ## 🌐 Live Site  
-[Visit Portfolio Website](https://https://cfree87.github.io/portfolio/)
+[Visit Portfolio Website](https://cfree87.github.io/portfolio/)
 
 ---
 
