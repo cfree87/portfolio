@@ -5,7 +5,7 @@
 ---
 
 ## 🌐 Live Site  
-[Visit Portfolio Website](https://cfree87.github.io/Portfolio/)
+[Visit Portfolio Website](https://cfree87.github.io/Portfolio%20Official/)
 
 ---
 
@@ -19,8 +19,8 @@
 ---
 
 ## 📸 Screenshots  
-![Homepage Screenshot](assets/images/portfolio-home.png)  
-![Project Section](assets/images/portfolio-projects.png)  
+![Homepage Screenshot](Assets/images/portfolio-home.png)  
+![Project Section](Assets/images/portfolio-projects.png)  
 
 ---
 
