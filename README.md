@@ -41,7 +41,7 @@ This portfolio was created to serve as a living collection of my development wor
 ## 🚀 How to Use  
 1. Clone this repository:
    ```bash
-   git clone https://github.com/csfree87/Portfolio.git
+   git clone https://github.com/cfree87/portfolio.git
    ```
 
 2. Open `index.html` in your browser  
